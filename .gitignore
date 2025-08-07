@@ -1,0 +1,25 @@
+# === Rust build artifacts ===
+**/target/
+**/Cargo.lock
+
+# === Rust tool info ===
+**/.rustc_info.json
+
+# === IDE/editor files ===
+**/.idea/
+**/.vscode/
+*.swp
+*.swo
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+
+# === Logs / temp ===
+*.log
+*.tmp
+
+# === WASM / JS builds (if any in future) ===
+**/pkg/
+**/node_modules/
+**/dist/
